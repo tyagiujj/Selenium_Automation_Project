@@ -12,17 +12,13 @@ public class DragAndDropConcepts {
        
         WebDriver driver = new ChromeDriver();
         
-        // Navigate to the page
         driver.navigate().to("https://demoqa.com/droppable/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
-     
+        
         Actions action = new Actions(driver);
-
         WebElement Drag = driver.findElement(By.id("draggable"));
         WebElement Drop = driver.findElement(By.id("droppable"));
-
         action.clickAndHold(Drag).moveToElement(Drop).release().build().perform();
   
         driver.quit();
