@@ -2,63 +2,67 @@
 <testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-07T11:16:40 IST" name="Default suite" finished-at="2025-04-07T11:16:51 IST" duration-ms="11581">
+  <suite started-at="2025-04-07T11:47:55 IST" name="Default suite" finished-at="2025-04-07T11:48:06 IST" duration-ms="11101">
     <groups>
     </groups>
-    <test started-at="2025-04-07T11:16:40 IST" name="Default test" finished-at="2025-04-07T11:16:51 IST" duration-ms="11581">
+    <test started-at="2025-04-07T11:47:55 IST" name="Default test" finished-at="2025-04-07T11:48:06 IST" duration-ms="11101">
       <class name="SeleniumAllConcepts.ForAutomationTestingInterview">
-        <test-method is-config="true" signature="Setyup()[pri:0, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:40 IST" name="Setyup" finished-at="2025-04-07T11:16:47 IST" duration-ms="6961" status="PASS">
+        <test-method is-config="true" signature="Setyup()[pri:0, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:47:55 IST" name="Setyup" finished-at="2025-04-07T11:48:00 IST" duration-ms="5586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setyup -->
-        <test-method signature="ValidateInputFields()[pri:1, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:47 IST" name="ValidateInputFields" finished-at="2025-04-07T11:16:47 IST" duration-ms="168" status="PASS">
+        <test-method signature="ValidateInputFields()[pri:1, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:00 IST" name="ValidateInputFields" finished-at="2025-04-07T11:48:01 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateInputFields -->
-        <test-method signature="ButtonFunctionality()[pri:2, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:47 IST" name="ButtonFunctionality" finished-at="2025-04-07T11:16:47 IST" duration-ms="141" status="PASS">
+        <test-method signature="ButtonFunctionality()[pri:2, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:01 IST" name="ButtonFunctionality" finished-at="2025-04-07T11:48:01 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ButtonFunctionality -->
-        <test-method signature="GetTheTitle()[pri:3, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:47 IST" name="GetTheTitle" finished-at="2025-04-07T11:16:47 IST" duration-ms="19" status="PASS">
+        <test-method signature="GetTheTitle()[pri:3, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:01 IST" name="GetTheTitle" finished-at="2025-04-07T11:48:01 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetTheTitle -->
-        <test-method signature="GetURL()[pri:4, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:47 IST" name="GetURL" finished-at="2025-04-07T11:16:47 IST" duration-ms="19" status="PASS">
+        <test-method signature="GetURL()[pri:4, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:01 IST" name="GetURL" finished-at="2025-04-07T11:48:01 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetURL -->
-        <test-method signature="GetTextAndGetAttribute()[pri:5, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:47 IST" name="GetTextAndGetAttribute" finished-at="2025-04-07T11:16:47 IST" duration-ms="113" status="PASS">
+        <test-method signature="GetTextAndGetAttribute()[pri:5, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:01 IST" name="GetTextAndGetAttribute" finished-at="2025-04-07T11:48:01 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetTextAndGetAttribute -->
-        <test-method signature="MouseHoverAction()[pri:6, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:47 IST" name="MouseHoverAction" finished-at="2025-04-07T11:16:48 IST" duration-ms="795" status="PASS">
+        <test-method signature="MouseHoverAction()[pri:6, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:01 IST" name="MouseHoverAction" finished-at="2025-04-07T11:48:02 IST" duration-ms="771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MouseHoverAction -->
-        <test-method signature="SingleAndMultipleCheckBox()[pri:7, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:48 IST" name="SingleAndMultipleCheckBox" finished-at="2025-04-07T11:16:48 IST" duration-ms="304" status="PASS">
+        <test-method signature="SingleAndMultipleCheckBox()[pri:7, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:02 IST" name="SingleAndMultipleCheckBox" finished-at="2025-04-07T11:48:02 IST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SingleAndMultipleCheckBox -->
-        <test-method signature="DropDown()[pri:8, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:48 IST" name="DropDown" finished-at="2025-04-07T11:16:49 IST" duration-ms="172" status="PASS">
+        <test-method signature="DropDown()[pri:8, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:02 IST" name="DropDown" finished-at="2025-04-07T11:48:02 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DropDown -->
-        <test-method signature="NavigateMethod()[pri:9, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:49 IST" name="NavigateMethod" finished-at="2025-04-07T11:16:49 IST" duration-ms="885" status="PASS">
+        <test-method signature="NavigateMethod()[pri:9, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:02 IST" name="NavigateMethod" finished-at="2025-04-07T11:48:03 IST" duration-ms="1278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateMethod -->
-        <test-method signature="Alert()[pri:10, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:49 IST" name="Alert" finished-at="2025-04-07T11:16:50 IST" duration-ms="97" status="PASS">
+        <test-method signature="Alert()[pri:10, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:03 IST" name="Alert" finished-at="2025-04-07T11:48:03 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Alert -->
-        <test-method signature="NumberofLink()[pri:11, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:50 IST" name="NumberofLink" finished-at="2025-04-07T11:16:50 IST" duration-ms="317" status="PASS">
+        <test-method signature="NumberofLink()[pri:11, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:03 IST" name="NumberofLink" finished-at="2025-04-07T11:48:04 IST" duration-ms="324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NumberofLink -->
-        <test-method signature="LinkText()[pri:12, instance:SeleniumAllConcepts.ForAutomationTestingInterview@1e178745]" started-at="2025-04-07T11:16:50 IST" name="LinkText" finished-at="2025-04-07T11:16:51 IST" duration-ms="1491" status="PASS">
+        <test-method signature="LinkText()[pri:12, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:04 IST" name="LinkText" finished-at="2025-04-07T11:48:06 IST" duration-ms="2063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LinkText -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:SeleniumAllConcepts.ForAutomationTestingInterview@26b3fd41]" started-at="2025-04-07T11:48:06 IST" name="TearDown" finished-at="2025-04-07T11:48:06 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
       </class> <!-- SeleniumAllConcepts.ForAutomationTestingInterview -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

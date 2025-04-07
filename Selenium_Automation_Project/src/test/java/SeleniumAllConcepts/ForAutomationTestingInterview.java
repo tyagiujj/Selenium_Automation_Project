@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -118,6 +119,11 @@ public void LinkText() throws InterruptedException {
 	WebElement PartiacalLinkText = driver.findElement(By.partialLinkText("Len"));
 	PartiacalLinkText.click();
 	driver.navigate().back();
+}
+
+@AfterClass
+public void TearDown() {
+	driver.close();
 }
 	    
 	    }
