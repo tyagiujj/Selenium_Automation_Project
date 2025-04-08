@@ -166,10 +166,10 @@ Form1.sendKeys("Ujjwal Tyagi");
 WebElement Submit =driver.findElement(By.xpath("//button[@id='btn1']"));
 Submit.click();
 
-driver.findElement(By.linkText("Apple")).click();
+//driver.findElement(By.linkText("Apple")).click();
 driver.findElement(By.partialLinkText("Ap")).click();
 driver.navigate().refresh();
-driver.navigate().back();
+///driver.navigate().back();
 driver.close();
 	}
 }

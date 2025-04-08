@@ -1,8 +1,6 @@
 package SeleniumAllConcepts;
-
 import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,12 +12,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 public class ForAutomationTestingInterview {
 	WebDriver driver;
-	
 	@BeforeClass
-	public void Setyup() {
+	public void Setup() {
 		driver= new ChromeDriver();
 		driver.navigate().to("https://testautomationpractice.blogspot.com/");
 		driver.manage().window().maximize();

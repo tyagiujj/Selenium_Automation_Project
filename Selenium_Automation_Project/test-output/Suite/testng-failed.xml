@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="SeleniumAllConcepts.TC_004ReplyTemplate">
+      <class name="SeleniumAllConcepts.AddMedia">
         <methods>
-          <include name="setup"/>
-          <include name="loginTest"/>
-          <include name="ReplyTemplate"/>
+          <include name="Registration"/>
+          <include name="TearDown"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- SeleniumAllConcepts.TC_004ReplyTemplate -->
+      </class> <!-- SeleniumAllConcepts.AddMedia -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
