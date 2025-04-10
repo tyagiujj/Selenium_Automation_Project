@@ -43,14 +43,12 @@ public class AddMedia {
 		Reporter.log("URL of The Add Library Page is : " + URLofThePage, true);
 		Assert.assertEquals(URLofThePage, "https://dev.myschoolone.com/Web/Library/library_addmedia.php");
 	}
-
 	@Test(priority = 2)
 	public void TitleofThePage() {
 		String TitleofThePage = driver.getTitle();
 		Reporter.log("Title of The Page is : " + TitleofThePage, true);
 		Assert.assertEquals(TitleofThePage, "MySchoolOne");
 	}
-
 	@Test(priority = 3)
 	public void titleOfSubmodule() {
 		WebElement titleOfSubmodule = driver.findElement(By.xpath("//h4[text()='Add Media']"));
@@ -58,14 +56,12 @@ public class AddMedia {
 		Reporter.log("Title of Submodule is: " + actualTitle, true);
 		Assert.assertEquals(actualTitle, "Add Media", "Submodule title does not match!");
 	}
-
 	@Test(priority = 4)
 	public void SelectTheLibrary() throws InterruptedException {
 		WebElement Library = driver.findElement(By.name("library"));
 		Select lib = new Select(Library);
 		lib.selectByVisibleText("Middle School");
 	}
-
 	@Test(priority = 5)
 	public void Registration() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumAllConcepts.AddMedia">
+      <class name="SeleniumAllConcepts.SeleniumPractice">
         <methods>
-          <include name="Registration"/>
-          <include name="TearDown"/>
+          <include name="VerifyFormSubmitMessage"/>
           <include name="Setup"/>
         </methods>
-      </class> <!-- SeleniumAllConcepts.AddMedia -->
+      </class> <!-- SeleniumAllConcepts.SeleniumPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 09 14:22:50 IST 2025</td>
+<td>Started on:</td><td>Thu Apr 10 12:10:17 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>18 seconds (18732 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4648 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,123 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='SeleniumAllConcepts.AddMedia.Registration()'><b>Registration</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=135.0.7049.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ccf6a0163867d31ade47d3570676184, findChildElements {id=f.725012DC0F2992D7C946FAC1D4278BBF.d.F7771E608B9A253548F6065C66D8BFDC.e.85, using=xpath, value=.//option[normalize-space(.) = &quot;library 1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62112/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ccf6a0163867d31ade47d3570676184
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:203)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:129)
-	at SeleniumAllConcepts.AddMedia.Registration(AddMedia.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace975001918", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace975001918'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=135.0.7049.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6ccf6a0163867d31ade47d3570676184, findChildElements {id=f.725012DC0F2992D7C946FAC1D4278BBF.d.F7771E608B9A253548F6065C66D8BFDC.e.85, using=xpath, value=.//option[normalize-space(.) = &quot;library 1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62112}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62112/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6ccf6a0163867d31ade47d3570676184
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:203)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:129)
-	at SeleniumAllConcepts.AddMedia.Registration(AddMedia.java:76)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -193,63 +76,91 @@ Session ID: 6ccf6a0163867d31ade47d3570676184
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SeleniumAllConcepts.AddMedia.NavigatetoAddLibraryPage()'><b>NavigatetoAddLibraryPage</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-1256405521" onClick='toggleBox("Output-1256405521", this, "Show output", "Hide output");'>Show output</a>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTheDropDown()'><b>VerifyTheDropDown</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-1572745406" onClick='toggleBox("Output-1572745406", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1256405521" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1256405521">
-URL of The Add Library Page is : https://dev.myschoolone.com/Web/Library/library_addmedia.php<br/>
-</div>
-</td>
-<td></td>
-<td>14</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
-<tr>
-<td title='SeleniumAllConcepts.AddMedia.GetAttribute()'><b>GetAttribute</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-925803196" onClick='toggleBox("Output-925803196", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-925803196" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-925803196">
-Value of Attribure is : number<br/>
+<a href="#Output-1572745406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572745406">
+Name of the Drop Down is: my-select<br/>
+Count of the Drop Down options is: 4<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
 <tr>
-<td title='SeleniumAllConcepts.AddMedia.titleOfSubmodule()'><b>titleOfSubmodule</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-785625589" onClick='toggleBox("Output-785625589", this, "Show output", "Hide output");'>Show output</a>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifySubmitButtonFunctionality()'><b>VerifySubmitButtonFunctionality</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTextField()'><b>VerifyTextField</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.URLofThePage()'><b>URLofThePage</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-1262237002" onClick='toggleBox("Output-1262237002", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-785625589" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-785625589">
-Title of Submodule is: Add Media<br/>
+<a href="#Output-1262237002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1262237002">
+URL of the Page is: https://bonigarcia.dev/selenium-webdriver-java/web-form.html<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
 <tr>
-<td title='SeleniumAllConcepts.AddMedia.TitleofThePage()'><b>TitleofThePage</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-54960993" onClick='toggleBox("Output-54960993", this, "Show output", "Hide output");'>Show output</a>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyFormSubmitMessage()'><b>VerifyFormSubmitMessage</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-1716164115" onClick='toggleBox("Output-1716164115", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-54960993" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-54960993">
-Title of The Page is : MySchoolOne<br/>
+<a href="#Output-1716164115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1716164115">
+Message after form submission is: Form submitted<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
 <tr>
-<td title='SeleniumAllConcepts.AddMedia.SelectTheLibrary()'><b>SelectTheLibrary</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
+<td title='SeleniumAllConcepts.SeleniumPractice.DisabledInput()'><b>DisabledInput</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
 <tr>
-<td title='SeleniumAllConcepts.AddMedia.NoCopies()'><b>NoCopies</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTheCheckBoxFunctionality()'><b>VerifyTheCheckBoxFunctionality</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTitleOfThePageIsDisplayedOnScreen()'><b>VerifyTitleOfThePageIsDisplayedOnScreen</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-662666707" onClick='toggleBox("Output-662666707", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-662666707" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-662666707">
+Title of the Page is: Hands-On Selenium WebDriver with Java<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.TitleofThePage()'><b>TitleofThePage</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-660595570" onClick='toggleBox("Output-660595570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-660595570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-660595570">
+Title of the Page is: Hands-On Selenium WebDriver with Java<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyThePassword()'><b>VerifyThePassword</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@1f59a598</td></tr>
 </table><p>
 </body>
 </html>

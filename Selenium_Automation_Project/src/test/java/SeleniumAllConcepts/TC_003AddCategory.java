@@ -33,7 +33,6 @@ public class TC_003AddCategory {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
-
     @Test(priority = 1)
     public void loginTest() {
         driver.get("https://dev.myschoolone.com/newworldschool");
