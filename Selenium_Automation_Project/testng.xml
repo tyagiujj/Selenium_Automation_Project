@@ -3,7 +3,25 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="SeleniumAllConcepts.TC_005GroupConfiguration"/>
+      <class name="SeleniumAllConcepts.SeleniumPractice"/>
+      <class name="SeleniumAllConcepts.TC_003AddCategory"/>
+      <class name="SeleniumAllConcepts.TC_002OrangeHRMSInvalidLogin"/>
+      <class name="SeleniumAllConcepts.AutomationInterviewPractice"/>
+      <class name="SeleniumAllConcepts.TC_AddHolidays"/>
+      <class name="SeleniumAllConcepts.AutomationExercise"/>
+      <class name="SeleniumAllConcepts.TC_001OrangeHRMLoginTest"/>
+      <class name="SeleniumAllConcepts.TC_AddPolicies"/>
+      <class name="SeleniumAllConcepts.MyPayrollTest"/>
+      <class name="SeleniumAllConcepts.TC_006GroupStudentEnroll"/>
       <class name="SeleniumAllConcepts.AddMedia"/>
+      <class name="SeleniumAllConcepts.ForAutomationTestingInterview"/>
+      <class name="SeleniumAllConcepts.TC_003LogOutTestCasesOrangeHRM"/>
+      <class name="SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM"/>
+      <class name="SeleniumAllConcepts.TC_007StaffDetailReport"/>
+      <class name="SeleniumAllConcepts.TC_002Ealmanac"/>
+      <class name="SeleniumAllConcepts.TC_004ReplyTemplate"/>
+      <class name="SeleniumAllConcepts.Spicejetcomprofile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

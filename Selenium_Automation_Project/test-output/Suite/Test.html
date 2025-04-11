@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>59/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Apr 09 14:25:52 IST 2025</td>
+<td>Started on:</td><td>Fri Apr 11 13:02:57 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15323 ms)</td>
+<tr><td>Total time:</td><td>256 seconds (256347 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,7 +68,7 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,16 +76,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SeleniumAllConcepts.AddMedia.Registration()'><b>Registration</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=135.0.7049.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+<td title='SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM.TearDown()'><b>TearDown</b><br>Test class: SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa8574fedee60863fb22a8c27ef192, findChildElements {using=xpath, id=f.C0049F9BFE2D3C789E3E46CF43BCB247.d.9996F7B06B1FEA88B29A29E6D4A83F6D.e.71, value=.//option[normalize-space(.) = &quot;library 1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62243/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aaa8574fedee60863fb22a8c27ef192
+Command: [f50d301756bedb0e2761efbe405f9c03, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56678/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f50d301756bedb0e2761efbe405f9c03
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -93,23 +91,19 @@ Session ID: 9aaa8574fedee60863fb22a8c27ef192
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:203)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:129)
-	at SeleniumAllConcepts.AddMedia.Registration(AddMedia.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM.TearDown(TC_004AddEmployeeTestCaseOrangeHRM.java:68)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace827035437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace827035437'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=135.0.7049.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1132189701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1132189701'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id
 Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9aaa8574fedee60863fb22a8c27ef192, findChildElements {using=xpath, id=f.C0049F9BFE2D3C789E3E46CF43BCB247.d.9996F7B06B1FEA88B29A29E6D4A83F6D.e.71, value=.//option[normalize-space(.) = &quot;library 1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.42, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62243/devtoo..., se:cdpVersion: 135.0.7049.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9aaa8574fedee60863fb22a8c27ef192
+Command: [f50d301756bedb0e2761efbe405f9c03, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56678/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f50d301756bedb0e2761efbe405f9c03
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -120,12 +114,140 @@ Session ID: 9aaa8574fedee60863fb22a8c27ef192
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
-	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:203)
-	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:129)
-	at SeleniumAllConcepts.AddMedia.Registration(AddMedia.java:76)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+	at SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM.TearDown(TC_004AddEmployeeTestCaseOrangeHRM.java:68)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassConfigurations(TestMethodWorker.java:238)
+	at org.testng.internal.invokers.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:223)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:137)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM@5f16132a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM.addEmployeeAndVerifyInList()'><b>addEmployeeAndVerifyInList</b><br>Test class: SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50d301756bedb0e2761efbe405f9c03, findElement {using=xpath, value=//div[@class=&apos;oxd-table-body&apos;]//div[@role=&apos;row&apos;]//div[contains(@class,&apos;oxd-table-cell&apos;)][2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56678/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f50d301756bedb0e2761efbe405f9c03
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM.addEmployeeAndVerifyInList(TC_004AddEmployeeTestCaseOrangeHRM.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1407952056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1407952056'><pre>org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f50d301756bedb0e2761efbe405f9c03, findElement {using=xpath, value=//div[@class=&apos;oxd-table-body&apos;]//div[@role=&apos;row&apos;]//div[contains(@class,&apos;oxd-table-cell&apos;)][2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56678}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56678/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f50d301756bedb0e2761efbe405f9c03
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM.addEmployeeAndVerifyInList(TC_004AddEmployeeTestCaseOrangeHRM.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>18</td>
+<td>SeleniumAllConcepts.TC_004AddEmployeeTestCaseOrangeHRM@5f16132a</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.Spicejetcomprofile.verifyTheEnrollFunctionality()'><b>verifyTheEnrollFunctionality</b><br>Test class: SeleniumAllConcepts.Spicejetcomprofile</td>
+<td><div><pre>java.lang.AssertionError: WebDriver session is invalid or closed. Make sure the browser is launched before this test.
+	at SeleniumAllConcepts.Spicejetcomprofile.verifyTheEnrollFunctionality(Spicejetcomprofile.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace171063899", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace171063899'><pre>java.lang.AssertionError: WebDriver session is invalid or closed. Make sure the browser is launched before this test.
+	at org.testng.Assert.fail(Assert.java:111)
+	at SeleniumAllConcepts.Spicejetcomprofile.verifyTheEnrollFunctionality(Spicejetcomprofile.java:87)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -154,7 +276,219 @@ Session ID: 9aaa8574fedee60863fb22a8c27ef192
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.Spicejetcomprofile@671a5887</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.Spicejetcomprofile.verifyTheLogoOfApplication()'><b>verifyTheLogoOfApplication</b><br>Test class: SeleniumAllConcepts.Spicejetcomprofile</td>
+<td><div><pre>java.lang.AssertionError: An unexpected error occurred: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [059c38145f0b0b31b3bf33a208eccaeb, findElement {using=xpath, value=//a[normalize-space()=&apos;&apos;]//img[@class=&apos;css-9pa8cd&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56806/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 059c38145f0b0b31b3bf33a208eccaeb
+	at SeleniumAllConcepts.Spicejetcomprofile.verifyTheLogoOfApplication(Spicejetcomprofile.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1373172466", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1373172466'><pre>java.lang.AssertionError: An unexpected error occurred: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=135.0.7049.85)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [059c38145f0b0b31b3bf33a208eccaeb, findElement {using=xpath, value=//a[normalize-space()=&apos;&apos;]//img[@class=&apos;css-9pa8cd&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56806/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 059c38145f0b0b31b3bf33a208eccaeb
+	at org.testng.Assert.fail(Assert.java:111)
+	at SeleniumAllConcepts.Spicejetcomprofile.verifyTheLogoOfApplication(Spicejetcomprofile.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>SeleniumAllConcepts.Spicejetcomprofile@671a5887</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_AddHolidays.NavigateToHolidayPage()'><b>NavigateToHolidayPage</b><br>Test class: SeleniumAllConcepts.TC_AddHolidays</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//th[@class=&apos;datepicker-switch&apos;]&quot;}
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c051f7ccf6337f83885ea5e174cea2e6, findElement {using=xpath, value=//th[@class=&apos;datepicker-switch&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56306/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c051f7ccf6337f83885ea5e174cea2e6
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at SeleniumAllConcepts.TC_AddHolidays.NavigateToHolidayPage(TC_AddHolidays.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace648214521", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace648214521'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//th[@class=&apos;datepicker-switch&apos;]&quot;}
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c051f7ccf6337f83885ea5e174cea2e6, findElement {using=xpath, value=//th[@class=&apos;datepicker-switch&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56306}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56306/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c051f7ccf6337f83885ea5e174cea2e6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at SeleniumAllConcepts.TC_AddHolidays.NavigateToHolidayPage(TC_AddHolidays.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>15</td>
+<td>SeleniumAllConcepts.TC_AddHolidays@28975c28</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AddMedia.Registration()'><b>Registration</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86bd4fd11ad31ca62e1634127ddeb0ea, findChildElements {id=f.1DD2F659F961121E61E0C319ACC5683E.d.1AD4B0141A95167513CE8798EE575F6C.e.86, value=.//option[normalize-space(.) = &quot;library 1&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56540/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86bd4fd11ad31ca62e1634127ddeb0ea
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:203)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:129)
+	at SeleniumAllConcepts.AddMedia.Registration(AddMedia.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1986677191", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1986677191'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.85)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86bd4fd11ad31ca62e1634127ddeb0ea, findChildElements {id=f.1DD2F659F961121E61E0C319ACC5683E.d.1AD4B0141A95167513CE8798EE575F6C.e.86, value=.//option[normalize-space(.) = &quot;library 1&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.85, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\Stuti\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56540/devtoo..., se:cdpVersion: 135.0.7049.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86bd4fd11ad31ca62e1634127ddeb0ea
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:381)
+	at org.openqa.selenium.remote.RemoteWebElement.findElements(RemoteWebElement.java:203)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:129)
+	at SeleniumAllConcepts.AddMedia.Registration(AddMedia.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AddMedia@3cc1435c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -165,63 +499,479 @@ Session ID: 9aaa8574fedee60863fb22a8c27ef192
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SeleniumAllConcepts.AddMedia.GetAttribute()'><b>GetAttribute</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-172518776" onClick='toggleBox("Output-172518776", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-172518776" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-172518776">
-Value of Attribure is : number<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
-<tr>
-<td title='SeleniumAllConcepts.AddMedia.NoCopies()'><b>NoCopies</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
-<td></td>
-<td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
-<tr>
-<td title='SeleniumAllConcepts.AddMedia.NavigatetoAddLibraryPage()'><b>NavigatetoAddLibraryPage</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-1829460911" onClick='toggleBox("Output-1829460911", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1829460911" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1829460911">
-URL of The Add Library Page is : https://dev.myschoolone.com/Web/Library/library_addmedia.php<br/>
-</div>
-</td>
-<td></td>
-<td>10</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
-<tr>
 <td title='SeleniumAllConcepts.AddMedia.TitleofThePage()'><b>TitleofThePage</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-1210939243" onClick='toggleBox("Output-1210939243", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1559154670" onClick='toggleBox("Output-1559154670", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1210939243" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1210939243">
+<a href="#Output-1559154670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1559154670">
 Title of The Page is : MySchoolOne<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.AddMedia@3cc1435c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.SingleAndMultipleCheckBox()'><b>SingleAndMultipleCheckBox</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AddMedia.NoCopies()'><b>NoCopies</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AddMedia@3cc1435c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_003LogOutTestCasesOrangeHRM.verifyLogoutFunctionality()'><b>verifyLogoutFunctionality</b><br>Test class: SeleniumAllConcepts.TC_003LogOutTestCasesOrangeHRM</td>
+<td></td>
+<td>3</td>
+<td>SeleniumAllConcepts.TC_003LogOutTestCasesOrangeHRM@dd0c991</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_005GroupConfiguration.EnterTheDetails()'><b>EnterTheDetails</b><br>Test class: SeleniumAllConcepts.TC_005GroupConfiguration</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.TC_005GroupConfiguration@568ff82</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyTheLogOutButtonFunctionality()'><b>VerifyTheLogOutButtonFunctionality</b><br>Test class: SeleniumAllConcepts.AutomationExercise</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifySubmitButtonFunctionality()'><b>VerifySubmitButtonFunctionality</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.NavigateMethod()'><b>NavigateMethod</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_002Ealmanac.addDepartmentTest()'><b>addDepartmentTest</b><br>Test class: SeleniumAllConcepts.TC_002Ealmanac</td>
+<td></td>
+<td>11</td>
+<td>SeleniumAllConcepts.TC_002Ealmanac@36d585c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_001OrangeHRMLoginTest.testLogin()'><b>testLogin</b><br>Test class: SeleniumAllConcepts.TC_001OrangeHRMLoginTest</td>
+<td></td>
+<td>5</td>
+<td>SeleniumAllConcepts.TC_001OrangeHRMLoginTest@343570b7</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.ButtonFunctionality()'><b>ButtonFunctionality</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTitleOfThePageIsDisplayedOnScreen()'><b>VerifyTitleOfThePageIsDisplayedOnScreen</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-818093527" onClick='toggleBox("Output-818093527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-818093527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-818093527">
+Title of the Page is: Hands-On Selenium WebDriver with Java<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.DisabledInput()'><b>DisabledInput</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationInterviewPractice.NumberofLinks()'><b>NumberofLinks</b><br>Test class: SeleniumAllConcepts.AutomationInterviewPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationInterviewPractice@ba54932</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_AddPolicies.navigateToAddPolicies()'><b>navigateToAddPolicies</b><br>Test class: SeleniumAllConcepts.TC_AddPolicies</td>
+<td></td>
+<td>3</td>
+<td>SeleniumAllConcepts.TC_AddPolicies@157853da</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_003AddCategory.addCategory()'><b>addCategory</b><br>Test class: SeleniumAllConcepts.TC_003AddCategory</td>
+<td></td>
+<td>16</td>
+<td>SeleniumAllConcepts.TC_003AddCategory@36b4fe2a</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.Spicejetcomprofile.VerifyNumberOfLink()'><b>VerifyNumberOfLink</b><br>Test class: SeleniumAllConcepts.Spicejetcomprofile<br/>
+<a href="#Output-1484738403" onClick='toggleBox("Output-1484738403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1484738403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1484738403">
+Number of Link in This Application is : 42<br/>
+Name of All Link is : <br/>
+Name of All Link is : Sign in<br/>
+Name of All Link is : Terms & Conditions<br/>
+Name of All Link is : Spice Route Magazine<br/>
+Name of All Link is : Corporate Overview<br/>
+Name of All Link is : Fleet<br/>
+Name of All Link is : Careers<br/>
+Name of All Link is : Media Center<br/>
+Name of All Link is : Awards and Applaud<br/>
+Name of All Link is : Airports<br/>
+Name of All Link is : International Offices<br/>
+Name of All Link is : Corporate Head Office<br/>
+Name of All Link is : Advertise with Us<br/>
+Name of All Link is : RFP<br/>
+Name of All Link is : Citizen's Charter<br/>
+Name of All Link is : FAQ<br/>
+Name of All Link is : Fitness To Fly Guideline<br/>
+Name of All Link is : Flight Schedules<br/>
+Name of All Link is : Terms of Carriage<br/>
+Name of All Link is : Fees and Charges<br/>
+Name of All Link is : Know Your Rights<br/>
+Name of All Link is : Book Any Test From Any Lab<br/>
+Name of All Link is : Book Any Test From Any Lab in Delhi<br/>
+Name of All Link is : Corporate Governance<br/>
+Name of All Link is : Financial Information<br/>
+Name of All Link is : Notices<br/>
+Name of All Link is : Corporate Announcements<br/>
+Name of All Link is : Shareholding Pattern<br/>
+Name of All Link is : Investor Services<br/>
+Name of All Link is : Disclosure Regulation 46<br/>
+Name of All Link is : <br/>
+Name of All Link is : <br/>
+Name of All Link is : <br/>
+Name of All Link is : <br/>
+Name of All Link is : <br/>
+Name of All Link is : <br/>
+Name of All Link is : <br/>
+Name of All Link is : Home<br/>
+Name of All Link is : Privacy Policy<br/>
+Name of All Link is : Disclaimer<br/>
+Name of All Link is : GST Information<br/>
+Name of All Link is : Sitemap<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.Spicejetcomprofile@671a5887</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_002Ealmanac.loginTest()'><b>loginTest</b><br>Test class: SeleniumAllConcepts.TC_002Ealmanac</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.TC_002Ealmanac@36d585c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.ValidateInputFields()'><b>ValidateInputFields</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.GetURL()'><b>GetURL</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyThePassword()'><b>VerifyThePassword</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifytheApplicationLogo()'><b>VerifytheApplicationLogo</b><br>Test class: SeleniumAllConcepts.AutomationExercise</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_002OrangeHRMSInvalidLogin.verifyInvalidLoginShowsError()'><b>verifyInvalidLoginShowsError</b><br>Test class: SeleniumAllConcepts.TC_002OrangeHRMSInvalidLogin</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.TC_002OrangeHRMSInvalidLogin@574b560f</td></tr>
 <tr>
 <td title='SeleniumAllConcepts.AddMedia.SelectTheLibrary()'><b>SelectTheLibrary</b><br>Test class: SeleniumAllConcepts.AddMedia</td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.AddMedia@3cc1435c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.Spicejetcomprofile.VerifyTheURL()'><b>VerifyTheURL</b><br>Test class: SeleniumAllConcepts.Spicejetcomprofile<br/>
+<a href="#Output-1899404826" onClick='toggleBox("Output-1899404826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1899404826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1899404826">
+Current URL of The Application is : https://www.spicejet.com/profile/sign-up/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.Spicejetcomprofile@671a5887</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.DropDown()'><b>DropDown</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.LinkText()'><b>LinkText</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AddMedia.NavigatetoAddLibraryPage()'><b>NavigatetoAddLibraryPage</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
+<a href="#Output-673412242" onClick='toggleBox("Output-673412242", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-673412242" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-673412242">
+URL of The Add Library Page is : https://dev.myschoolone.com/Web/Library/library_addmedia.php<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>SeleniumAllConcepts.AddMedia@3cc1435c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyTheUserNameLabel()'><b>VerifyTheUserNameLabel</b><br>Test class: SeleniumAllConcepts.AutomationExercise<br/>
+<a href="#Output-1125509551" onClick='toggleBox("Output-1125509551", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1125509551" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1125509551">
+Label Name is : Username<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyTheSubmitButtonFunctionality()'><b>VerifyTheSubmitButtonFunctionality</b><br>Test class: SeleniumAllConcepts.AutomationExercise</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyLoginSuccessMessage()'><b>VerifyLoginSuccessMessage</b><br>Test class: SeleniumAllConcepts.AutomationExercise<br/>
+<a href="#Output-922547904" onClick='toggleBox("Output-922547904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-922547904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-922547904">
+Success Message is : Congratulations student. You successfully logged in!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTheDropDown()'><b>VerifyTheDropDown</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-866273692" onClick='toggleBox("Output-866273692", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-866273692" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-866273692">
+Name of the Drop Down is: my-select<br/>
+Count of the Drop Down options is: 4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
 <tr>
 <td title='SeleniumAllConcepts.AddMedia.titleOfSubmodule()'><b>titleOfSubmodule</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
-<a href="#Output-830863979" onClick='toggleBox("Output-830863979", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1117802526" onClick='toggleBox("Output-1117802526", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-830863979" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-830863979">
+<a href="#Output-1117802526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1117802526">
 Title of Submodule is: Add Media<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>SeleniumAllConcepts.AddMedia@f79e</td></tr>
+<td>SeleniumAllConcepts.AddMedia@3cc1435c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.GetTheTitle()'><b>GetTheTitle</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyTheTitleOfThePage()'><b>VerifyTheTitleOfThePage</b><br>Test class: SeleniumAllConcepts.AutomationExercise<br/>
+<a href="#Output-1109461985" onClick='toggleBox("Output-1109461985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1109461985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1109461985">
+Title of The Page is : Test Login | Practice Test Automation<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_004ReplyTemplate.ReplyTemplate()'><b>ReplyTemplate</b><br>Test class: SeleniumAllConcepts.TC_004ReplyTemplate</td>
+<td></td>
+<td>11</td>
+<td>SeleniumAllConcepts.TC_004ReplyTemplate@87a85e1</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyTheURLofThePage()'><b>VerifyTheURLofThePage</b><br>Test class: SeleniumAllConcepts.AutomationExercise<br/>
+<a href="#Output-515036017" onClick='toggleBox("Output-515036017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-515036017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-515036017">
+URL of The Page is : https://practicetestautomation.com/practice-test-login/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTextField()'><b>VerifyTextField</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationInterviewPractice.Setup()'><b>Setup</b><br>Test class: SeleniumAllConcepts.AutomationInterviewPractice</td>
+<td></td>
+<td>4</td>
+<td>SeleniumAllConcepts.AutomationInterviewPractice@ba54932</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_005GroupConfiguration.OpenTheGroupConfiguration()'><b>OpenTheGroupConfiguration</b><br>Test class: SeleniumAllConcepts.TC_005GroupConfiguration</td>
+<td></td>
+<td>9</td>
+<td>SeleniumAllConcepts.TC_005GroupConfiguration@568ff82</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_004ReplyTemplate.loginTest()'><b>loginTest</b><br>Test class: SeleniumAllConcepts.TC_004ReplyTemplate</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.TC_004ReplyTemplate@87a85e1</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.NumberofLink()'><b>NumberofLink</b><br>Test class: SeleniumAllConcepts.AutomationExercise<br/>
+<a href="#Output-864864095" onClick='toggleBox("Output-864864095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864864095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864864095">
+Number of Link in This Page is : 10<br/>
+Name of The Links is : <br/>
+Name of The Links is : <br/>
+Name of The Links is : HOME<br/>
+Name of The Links is : PRACTICE<br/>
+Name of The Links is : COURSES<br/>
+Name of The Links is : BLOG<br/>
+Name of The Links is : CONTACT<br/>
+Name of The Links is : Log out<br/>
+Name of The Links is : Practice Test Automation.<br/>
+Name of The Links is : Privacy Policy<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_003AddCategory.loginTest()'><b>loginTest</b><br>Test class: SeleniumAllConcepts.TC_003AddCategory</td>
+<td></td>
+<td>1</td>
+<td>SeleniumAllConcepts.TC_003AddCategory@36b4fe2a</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.TitleofThePage()'><b>TitleofThePage</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-1892869131" onClick='toggleBox("Output-1892869131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1892869131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1892869131">
+Title of the Page is: Hands-On Selenium WebDriver with Java<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.Alert()'><b>Alert</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.GetTextAndGetAttribute()'><b>GetTextAndGetAttribute</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.NumberofLink()'><b>NumberofLink</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyTheUserNameFunctionality()'><b>VerifyTheUserNameFunctionality</b><br>Test class: SeleniumAllConcepts.AutomationExercise</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyFormSubmitMessage()'><b>VerifyFormSubmitMessage</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-1211586911" onClick='toggleBox("Output-1211586911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1211586911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1211586911">
+Message after form submission is: Form submitted<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.URLofThePage()'><b>URLofThePage</b><br>Test class: SeleniumAllConcepts.SeleniumPractice<br/>
+<a href="#Output-302987494" onClick='toggleBox("Output-302987494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-302987494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-302987494">
+URL of the Page is: https://bonigarcia.dev/selenium-webdriver-java/web-form.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AddMedia.GetAttribute()'><b>GetAttribute</b><br>Test class: SeleniumAllConcepts.AddMedia<br/>
+<a href="#Output-1465146431" onClick='toggleBox("Output-1465146431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1465146431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1465146431">
+Value of Attribure is : number<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AddMedia@3cc1435c</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.SeleniumPractice.VerifyTheCheckBoxFunctionality()'><b>VerifyTheCheckBoxFunctionality</b><br>Test class: SeleniumAllConcepts.SeleniumPractice</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.SeleniumPractice@45ca843</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.MyPayrollTest.testMyPayrollLogin()'><b>testMyPayrollLogin</b><br>Test class: SeleniumAllConcepts.MyPayrollTest</td>
+<td></td>
+<td>10</td>
+<td>SeleniumAllConcepts.MyPayrollTest@71c3b41</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_006GroupStudentEnroll.StudentEnroll()'><b>StudentEnroll</b><br>Test class: SeleniumAllConcepts.TC_006GroupStudentEnroll</td>
+<td></td>
+<td>22</td>
+<td>SeleniumAllConcepts.TC_006GroupStudentEnroll@236e3f4e</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.Spicejetcomprofile.VerifyNumberOfImage()'><b>VerifyNumberOfImage</b><br>Test class: SeleniumAllConcepts.Spicejetcomprofile<br/>
+<a href="#Output-1501624947" onClick='toggleBox("Output-1501624947", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501624947" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501624947">
+Number of Images is : 23<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.Spicejetcomprofile@671a5887</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.ForAutomationTestingInterview.MouseHoverAction()'><b>MouseHoverAction</b><br>Test class: SeleniumAllConcepts.ForAutomationTestingInterview</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.ForAutomationTestingInterview@6bf0219d</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.Spicejetcomprofile.TitleofThePage()'><b>TitleofThePage</b><br>Test class: SeleniumAllConcepts.Spicejetcomprofile<br/>
+<a href="#Output-1022713356" onClick='toggleBox("Output-1022713356", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1022713356" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1022713356">
+Title of The Application is : SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.Spicejetcomprofile@671a5887</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.TC_007StaffDetailReport.NavigatetoStaffDetailReport()'><b>NavigatetoStaffDetailReport</b><br>Test class: SeleniumAllConcepts.TC_007StaffDetailReport</td>
+<td></td>
+<td>12</td>
+<td>SeleniumAllConcepts.TC_007StaffDetailReport@69fb6037</td></tr>
+<tr>
+<td title='SeleniumAllConcepts.AutomationExercise.VerifyThePasswordFunctionality()'><b>VerifyThePasswordFunctionality</b><br>Test class: SeleniumAllConcepts.AutomationExercise</td>
+<td></td>
+<td>0</td>
+<td>SeleniumAllConcepts.AutomationExercise@3943a2be</td></tr>
 </table><p>
 </body>
 </html>

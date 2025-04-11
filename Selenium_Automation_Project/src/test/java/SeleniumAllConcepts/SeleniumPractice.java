@@ -1,8 +1,6 @@
 package SeleniumAllConcepts;
-
 import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,7 +14,6 @@ import org.testng.annotations.Test;
 
 public class SeleniumPractice {
 	WebDriver driver;
-
 	@BeforeClass
 	public void Setup() {
 		driver = new ChromeDriver();
@@ -24,21 +21,18 @@ public class SeleniumPractice {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
-
 	@Test(priority = 1)
 	public void TitleofThePage() {
 		String titleOfThePage = driver.getTitle();
 		Reporter.log("Title of the Page is: " + titleOfThePage, true);
 		Assert.assertEquals(titleOfThePage, "Hands-On Selenium WebDriver with Java");
 	}
-
 	@Test(priority = 2)
 	public void URLofThePage() {
 		String urlOfThePage = driver.getCurrentUrl();
 		Reporter.log("URL of the Page is: " + urlOfThePage, true);
 		Assert.assertEquals(urlOfThePage, "https://bonigarcia.dev/selenium-webdriver-java/web-form.html");
 	}
-
 	@Test(priority = 3)
 	public void VerifyTitleOfThePageIsDisplayedOnScreen() {
 		WebElement title = driver.findElement(By.xpath("//h1[text()='Hands-On Selenium WebDriver with Java']"));
@@ -46,7 +40,6 @@ public class SeleniumPractice {
 		boolean isTitleDisplayed = title.isDisplayed();
 		Assert.assertTrue(isTitleDisplayed, "Title of the Page is not displaying on the page");
 	}
-
 	@Test(priority = 4)
 	public void VerifyTextField() {
 		WebElement textField = driver.findElement(By.name("my-text"));
@@ -54,7 +47,6 @@ public class SeleniumPractice {
 		Assert.assertTrue(isTextFieldEnabled, "Text Input Field is not enabled");
 		textField.sendKeys("Ujjwal Tyagi");
 	}
-
 	@Test(priority = 5)
 	public void VerifyThePassword() {
 		WebElement password = driver.findElement(By.name("my-password"));
@@ -62,14 +54,12 @@ public class SeleniumPractice {
 		Assert.assertTrue(isPasswordEnabled, "Password Text Field is not enabled");
 		password.sendKeys("ujjwal@1234");
 	}
-
 	@Test(priority = 6)
 	public void DisabledInput() {
 		WebElement disabledField = driver.findElement(By.name("my-disabled"));
 		boolean isDisabledFieldEnabled = disabledField.isEnabled();
 		Assert.assertFalse(isDisabledFieldEnabled, "My-disabled field should be disabled");
 	}
-
 	@Test(priority = 7)
 	public void VerifyTheDropDown() {
 		WebElement dropdown = driver.findElement(By.name("my-select"));
