@@ -2,7 +2,6 @@ package SeleniumAllConcepts;
 
 import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.NoSuchSessionException;
@@ -14,9 +13,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 public class Spicejetcomprofile {
 	WebDriver driver;
 	@BeforeClass
@@ -59,7 +58,7 @@ public class Spicejetcomprofile {
 		Reporter.log("Number of Images is : " + NumberOfImages.size());
 		Assert.assertEquals(NumberOfImages.size(), 23);
 	}
-	@Test(priority = 5)
+	//@Test(priority = 5)
 	public void verifyTheLogoOfApplication() {
 	    try {
 	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -79,10 +78,10 @@ public class Spicejetcomprofile {
 	@Test(priority = 6)
 	public void verifyTheEnrollFunctionality() {
 	    try {
-	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	        WebElement firstName = wait.until(ExpectedConditions.visibilityOfElementLocated(
 	            By.xpath("//input[@placeholder='e.g. John']")));
-	        firstName.sendKeys("Ujjwal Tyagi");
+	        firstName.sendKeys("Ujjwal");
 	    } catch (NoSuchSessionException e) {
 	        Assert.fail("WebDriver session is invalid or closed. Make sure the browser is launched before this test.");
 	    } catch (NoSuchElementException e) {
@@ -92,7 +91,42 @@ public class Spicejetcomprofile {
 	    } catch (Exception e) {
 	        Assert.fail("Unexpected error: " + e.getMessage());
 	    }
+	    driver.findElement(By.xpath("//input[@placeholder='Doe']")).sendKeys("Tyagi");
+	  }
+	@Test(priority=7)
+	public void VerifyThePhoneNumber() {
+		WebElement PhoneNumber= driver.findElement(By.xpath("//input[@placeholder='e.g. 9876-453-010']"));
+		PhoneNumber.sendKeys("9756360213");
 	}
-
-
+	@Test(priority=8)
+	public void VerifyThePasswordFunctionality() throws InterruptedException {
+		Thread.sleep(2000);
+		WebElement Password= driver.findElement(By.xpath("//input[@autocapitalize=\"sentences\"][@type=\"password\"]"));
+		Password.sendKeys("tyagi@123");
+		Thread.sleep(2000);
+	}
+	@Test(priority=9)
+	public void VerifyTheConfirmPasswordFunctionality() {
+		WebElement ConfirmPassword= driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-1t2qqvi']//input[@type='password']"));
+		ConfirmPassword.sendKeys("tyagi@123");
+	}
+	@Test(priority=10)
+	public void VerifyTheEmailAddressField() {
+		WebElement Email= driver.findElement(By.xpath("//input[@placeholder='johndoe@example.com']"));
+		Email.sendKeys("ujjwaltyagi9700@gmail.com");
+	}
+	@Test(priority=11)
+	public void TermAndCondition() {
+		WebElement Conditions= driver.findElement(By.xpath("//*[name()='rect' and contains(@width,'100%')]"));
+		Conditions.click();
+	}
+	@Test(priority=11)
+	public void VerifyFunctionalityofEnrollButton() {
+		WebElement Enroll= driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-1awozwy r-184aecr r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-9qu9m4 r-ah5dr5 r-1otgn73']"));
+		Enroll.click();
+	}
+	  @AfterClass
+	  public void TearDown() {
+		  driver.close();
+	}	
 }

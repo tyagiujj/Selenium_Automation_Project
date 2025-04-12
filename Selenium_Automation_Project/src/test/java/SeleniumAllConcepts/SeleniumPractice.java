@@ -70,7 +70,6 @@ public class SeleniumPractice {
 		Reporter.log("Name of the Drop Down is: " + dropdown.getAttribute("name"), true);
 		Reporter.log("Count of the Drop Down options is: " + options.size(), true);
 	}
-
 	@Test(priority = 8)
 	public void VerifyTheCheckBoxFunctionality() {
 		List<WebElement> checkboxes = driver.findElements(By.xpath("//input[@type='checkbox']"));
@@ -78,7 +77,6 @@ public class SeleniumPractice {
 			checkbox.click();
 		}
 	}
-
 	@Test(priority = 9)
 	public void VerifySubmitButtonFunctionality() {
 		WebElement submitButton = driver.findElement(By.xpath("//button[normalize-space()='Submit']"));
@@ -88,7 +86,6 @@ public class SeleniumPractice {
 		Assert.assertTrue(isButtonEnabled, "Submit Button is not enabled");
 		submitButton.click();
 	}
-
 	@Test(priority = 10)
 	public void VerifyFormSubmitMessage() {
 		WebElement formSubmitMessage = driver.findElement(By.xpath("//h1[normalize-space()='Form submitted']"));
@@ -98,7 +95,6 @@ public class SeleniumPractice {
 		driver.navigate().back();
 		driver.navigate().refresh();
 	}
-
 	@AfterClass
 	public void TearDown() {
 		driver.quit();

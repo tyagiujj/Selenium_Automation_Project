@@ -22,6 +22,7 @@ WebElement MenuItem2= driver.findElement(By.xpath("//a[normalize-space()='Main I
 WebElement SubItem= driver.findElement(By.xpath("//a[text()=\"Sub Item\"]"));
 
 act.moveToElement(MenuItem2).moveToElement(SubItem).click().perform();
+driver.close();
 	}
 
 }

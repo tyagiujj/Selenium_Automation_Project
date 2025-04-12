@@ -36,7 +36,6 @@ conf.accept();
 //Promt alert
 WebElement promtalert= driver.findElement(By.xpath("//a[normalize-space()='Alert with Textbox']"));
 promtalert.click();
-
 WebElement Promt= driver.findElement(By.xpath("//button[@class='btn btn-info']"));
 Promt.click();
 Alert alt= driver.switchTo().alert();
@@ -44,10 +43,5 @@ alt.sendKeys("Automation Testing");
 alt.getText();
 alt.accept();
 //alt.dismiss();
-
-driver.close();
-
-	}
-	
-
+driver.close();	}	
 }
