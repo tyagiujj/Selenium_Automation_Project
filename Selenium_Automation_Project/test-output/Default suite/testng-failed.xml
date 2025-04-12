@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumAllConcepts.FakeAlert">
+      <class name="SeleniumAllConcepts.BasicHTMLForm">
         <methods>
-          <include name="HandleFakeAlert"/>
-          <include name="tearDown"/>
           <include name="Setup"/>
+          <include name="VerifyTheCheckboxs"/>
         </methods>
-      </class> <!-- SeleniumAllConcepts.FakeAlert -->
+      </class> <!-- SeleniumAllConcepts.BasicHTMLForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

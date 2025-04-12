@@ -1,25 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Current URL of The Application is : https://testpages.eviltester.com/styled/basic-html-form-test.html]]>
+    </line>
+    <line>
+      <![CDATA[Current Title of The Application : HTML Form Elements]]>
+    </line>
+    <line>
+      <![CDATA[Title of The Page is : Basic HTML Form Example]]>
+    </line>
+    <line>
+      <![CDATA[Number of Link Present on The Application : 5]]>
+    </line>
+    <line>
+      <![CDATA[Name of The Link is : Index]]>
+    </line>
+    <line>
+      <![CDATA[Name of The Link is : Page]]>
+    </line>
+    <line>
+      <![CDATA[Name of The Link is : About]]>
+    </line>
+    <line>
+      <![CDATA[Name of The Link is : EvilTester.com]]>
+    </line>
+    <line>
+      <![CDATA[Name of The Link is : Compendium Developments]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-04-12T12:10:27 IST" name="Default suite" finished-at="2025-04-12T12:10:31 IST" duration-ms="3872">
+  <suite started-at="2025-04-12T14:35:39 IST" name="Default suite" finished-at="2025-04-12T14:35:44 IST" duration-ms="4883">
     <groups>
     </groups>
-    <test started-at="2025-04-12T12:10:27 IST" name="Default test" finished-at="2025-04-12T12:10:31 IST" duration-ms="3872">
-      <class name="SeleniumAllConcepts.FakeAlert">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:SeleniumAllConcepts.FakeAlert@399c4be1]" started-at="2025-04-12T12:10:27 IST" name="Setup" finished-at="2025-04-12T12:10:30 IST" duration-ms="3245" status="PASS">
+    <test started-at="2025-04-12T14:35:39 IST" name="Default test" finished-at="2025-04-12T14:35:44 IST" duration-ms="4883">
+      <class name="SeleniumAllConcepts.BasicHTMLForm">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:39 IST" name="Setup" finished-at="2025-04-12T14:35:43 IST" duration-ms="3824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="HandleFakeAlert()[pri:1, instance:SeleniumAllConcepts.FakeAlert@399c4be1]" started-at="2025-04-12T12:10:30 IST" name="HandleFakeAlert" finished-at="2025-04-12T12:10:30 IST" duration-ms="396" status="PASS">
+        <test-method signature="VerifyTheURL()[pri:1, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:43 IST" name="VerifyTheURL" finished-at="2025-04-12T14:35:43 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Current URL of The Application is : https://testpages.eviltester.com/styled/basic-html-form-test.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTheURL -->
+        <test-method signature="VerifyTheTitle()[pri:2, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:43 IST" name="VerifyTheTitle" finished-at="2025-04-12T14:35:43 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Current Title of The Application : HTML Form Elements]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTheTitle -->
+        <test-method signature="VerifyTitleisDisplay()[pri:3, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:43 IST" name="VerifyTitleisDisplay" finished-at="2025-04-12T14:35:43 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of The Page is : Basic HTML Form Example]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTitleisDisplay -->
+        <test-method signature="VerifyTheLink()[pri:4, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:43 IST" name="VerifyTheLink" finished-at="2025-04-12T14:35:43 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Number of Link Present on The Application : 5]]>
+            </line>
+            <line>
+              <![CDATA[Name of The Link is : Index]]>
+            </line>
+            <line>
+              <![CDATA[Name of The Link is : Page]]>
+            </line>
+            <line>
+              <![CDATA[Name of The Link is : About]]>
+            </line>
+            <line>
+              <![CDATA[Name of The Link is : EvilTester.com]]>
+            </line>
+            <line>
+              <![CDATA[Name of The Link is : Compendium Developments]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTheLink -->
+        <test-method signature="VerifyTheUserNameField()[pri:5, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:43 IST" name="VerifyTheUserNameField" finished-at="2025-04-12T14:35:44 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HandleFakeAlert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumAllConcepts.FakeAlert@399c4be1]" started-at="2025-04-12T12:10:30 IST" name="tearDown" finished-at="2025-04-12T12:10:31 IST" duration-ms="166" status="PASS">
+        </test-method> <!-- VerifyTheUserNameField -->
+        <test-method signature="VerifyThePasswordTextField()[pri:6, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:44 IST" name="VerifyThePasswordTextField" finished-at="2025-04-12T14:35:44 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumAllConcepts.FakeAlert -->
+        </test-method> <!-- VerifyThePasswordTextField -->
+        <test-method signature="VerifyTheTextField()[pri:7, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:44 IST" name="VerifyTheTextField" finished-at="2025-04-12T14:35:44 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheTextField -->
+        <test-method signature="VerifyTheCheckboxs()[pri:8, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:44 IST" name="VerifyTheCheckboxs" finished-at="2025-04-12T14:35:44 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheCheckboxs -->
+        <test-method signature="VerifyTheSubmitButton()[pri:9, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:44 IST" name="VerifyTheSubmitButton" finished-at="2025-04-12T14:35:44 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheSubmitButton -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:SeleniumAllConcepts.BasicHTMLForm@7ee8290b]" started-at="2025-04-12T14:35:44 IST" name="TearDown" finished-at="2025-04-12T14:35:44 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- SeleniumAllConcepts.BasicHTMLForm -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
